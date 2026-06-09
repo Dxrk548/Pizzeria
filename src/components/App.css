@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fffaf3;
+  margin: 0;
+}
+
+.header {
+  background-color: #ffb347;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.banner img, .carrusel-img {
+  width: 100%;
+  height: auto;
+}
+
+.pizzas {
+  margin: 40px 0;
+}
+
+.pizza-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pizza-card {
+  background: #ffe5b4;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+}
+
+button {
+  background: #ff7043;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
